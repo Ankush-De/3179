@@ -15,20 +15,20 @@
         "data": {
           "url": "https://github.com/Ankush-De/3179/blob/0d5613c23666a395302f58155f4b5ca6e0f13dc3/Vegalite%20W9/data/w9data.csv"
         },
-        "key": "Home Team Name",
-        "fields": ["Home Team Goals", "Stage"]
+        "key": "Home_Team_Name",
+        "fields": ["Home_Goals"]
       }
     }
   ],
   "mark": {"type": "geoshape"},
   "encoding": {
     "color": {
-      "field": "Home Team Goals",
+      "field": "Home_Goals",
       "type": "quantitative"
     },
     "tooltip": [
-      {"field": "properties.NAME", "type": "nominal", "title": "Country"},
-      {"field": "Home Team Goals", "type": "quantitative"}
+      {"field": "properties.NAME", "type": "nominal", "title": "Home_Team_Name"},
+      {"field": "Home_Team_Goals", "type": "quantitative"}
     ]
   }
 }
