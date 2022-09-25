@@ -1,4 +1,4 @@
-Year,Datetime,Stage,City,Home Team Name,Home Team Goals,Away Team Name,Away Team Goals
+Year,Datetime,Stage,City,Home_Team_Name,Home_Goals,Away_Team_Name,Away_Goals
 1930,13 Jul 1930 - 15:00 ,Group 1,Montevideo ,France,4,Mexico,1
 1930,13 Jul 1930 - 15:00 ,Group 4,Montevideo ,USA,3,Belgium,0
 1930,14 Jul 1930 - 12:45 ,Group 2,Montevideo ,Yugoslavia,2,Brazil,1
