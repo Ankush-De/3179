@@ -5,7 +5,7 @@
   "title": "Distribution of Soccer Goals from all FIFA World Cups",
   "projection": {"type": "equalEarth"},
   "data": {
-    "url": "https://github.com/Ankush-De/3179/blob/1e74f0b108b18deed5f5b3dc89721eb5b264b3d6/Vegalite%20W9/js/ne_110m_countries_map.json",
+    "url": "https://raw.githubusercontent.com/Ankush-De/3179/main/Vegalite_W9/js/ne_110m_countries_map.json",
     "format": {"type": "topojson", "feature": "ne_110m_admin_0_countries"}
   },
   "transform": [
@@ -13,7 +13,7 @@
       "lookup": "properties.NAME",
       "from": {
         "data": {
-          "url": "https://github.com/Ankush-De/3179/blob/0d5613c23666a395302f58155f4b5ca6e0f13dc3/Vegalite%20W9/data/w9data.csv"
+          "url": "https://raw.githubusercontent.com/Ankush-De/3179/main/Vegalite_W9/data/w9data.csv"
         },
         "key": "Home_Team_Name",
         "fields": ["Home_Goals"]
