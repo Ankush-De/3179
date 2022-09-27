@@ -16,8 +16,9 @@
           "url": "https://raw.githubusercontent.com/Ankush-De/3179/main/Vegalite_W9/data/w9data.csv"
         },
         "key": "Home_Team_Name",
-        "fields": ["Home_Goals"]
-      }
+        "fields": ["Home_Goals", "Away_Goals"]
+      },
+      {"calculate": "Home_Goals + Away_Goals", "as": "Total_Goals"}
     }
   ],
   "mark": {"type": "geoshape"},
@@ -27,8 +28,8 @@
       "type": "quantitative"
     },
     "tooltip": [
-      {"field": "properties.NAME", "type": "nominal", "title": "Home_Team_Name"},
-      {"field": "Home_Team_Goals", "type": "quantitative"}
+      {"field": "properties.NAME", "type": "nominal", "title": "Home Team Name"},
+      {"field": "Total_Goals", "type": "quantitative", "title": "Number of Goals Scored"}
     ]
   }
 }
