@@ -21,14 +21,31 @@
 
     <script type="text/javascript">
         var vg_1 = "https://ankush-de.github.io/3179/Data_Vis_2/js/avg_attend.json";
+        var vg_2 = "https://ankush-de.github.io/3179/Data_Vis_2/js/avg_attend.json";
+        var vg_3 = "https://ankush-de.github.io/3179/Data_Vis_2/js/avg_attend.json";
+        var vg_4 = "https://ankush-de.github.io/3179/Data_Vis_2/js/avg_attend.json";
+
 
         vegaEmbed('#visualisation_bar', vg_1).then(function(result) {
           // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
         }).catch(console.error);
+
+        vegaEmbed('#visualisation_map', vg_2).then(function(result) {
+          // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+        }).catch(console.error);
+        
+        vegaEmbed('#visualisation_line', vg_3).then(function(result) {
+          // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+        }).catch(console.error);
+        
+        vegaEmbed('#visualisation_something', vg_4).then(function(result) {
+          // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+        }).catch(console.error);
+        
         
       </script>
 
-    <title>First vega-lite graph </title>
+    <title>DV2 FIT3179</title>
 
 
 </head>
@@ -40,6 +57,11 @@
         <h2><b><p style="font-size:25px">Analytical Breakdown</p></b></h2>
 
         <div id="visualisation_bar"></div>
+        <br><br><br>
+        <p style="font-size:18px">
+        Sample Text <br>
+        Sample Texr
+        </p>
 
     </center>
 </body>
