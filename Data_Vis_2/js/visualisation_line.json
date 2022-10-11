@@ -19,7 +19,7 @@
         ]
       },
       {
-        "transform": [{"pivot": "Host", "value": "Annual CO2 emissions", "groupby": ["Year"]}],
+        "transform": [{"pivot": "Host", "value": "Attendance", "groupby": ["Year"]}],
         "mark": {"type":"rule","clip":true},
         "encoding": {
           "opacity": {
