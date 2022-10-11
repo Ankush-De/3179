@@ -1,0 +1,45 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "data": {"url": "https://raw.githubusercontent.com/Ankush-De/3179/main/Data_Vis_2/data/WorldCupMatches.csv"},
+      "title": "Goals Over Time (TITLE TBC)",
+    "width": 800,
+    "height": 500,
+    "encoding": {"x": {"field": "Year", "type": "quantitative",
+      "scale":{"domain" : [1930,2014]}}},
+    "layer": [
+      {
+        "encoding": {
+          "color": {"field": "Host", "type": "nominal"},
+          "y": {"field": "Attendance", "type": "quantitative"}
+        },
+        "layer": [
+          {    "mark": {"type": "line","clip": true  }
+          },
+          {"transform": [{"filter": {"selection": "hover"}}], "mark": "point"}
+        ]
+      },
+      {
+        "transform": [{"pivot": "Host", "value": "Annual CO2 emissions", "groupby": ["Year"]}],
+        "mark": {"type":"rule","clip":true},
+        "encoding": {
+          "opacity": {
+            "condition": {"value": 0.3, "selection": "hover"},
+            "value": 0
+          },
+          "tooltip": [
+            {"field": "Year", "type": "quantitative"},
+          ]
+        },
+        "selection": {
+          "hover": {
+            "type": "single",
+            "fields": ["Year"],
+            "nearest": true,
+            "on": "mouseover",
+            "empty": "none",
+            "clear": "mouseout"
+          }
+        }
+      }
+    ]
+  }
