@@ -30,17 +30,14 @@
         <br>
         <h2><b><p style="font-size:25px">Analytical Breakdown</p></b></h2>
 
-        <div id="bar_chart">
-        </div>
+        <div id="visualisation_bar"></div>
 
 
 
         <script type="text/javascript">
-            var spec1 = "https://Ankush-De.github.io/FIT3179/Data_vis_2/js/avg_attendance.vg";
+            var vg_1 = "https://Ankush-De.github.io/FIT3179/Data_vis_2/js/avg_attendance.json";
 
-          
-          
-            vegaEmbed('#vis1', spec1).then(function(result) {
+            vegaEmbed('#visualisation_bar', vg_1).then(function(result) {
               // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
             }).catch(console.error);
             
