@@ -1,0 +1,32 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": "container",
+    "height": "container",
+    "data": {          
+        "url": "https://raw.githubusercontent.com/Ankush-De/3179/main/Data_Vis_2/data/WorldCups.csv"
+    },
+    "mark": "bar",
+    "encoding": {
+        "x": {
+            "field": "GoalsScored",
+            "type": "quantitative",
+            "title": "Average Attendance"
+        },
+        "y": {
+            "field": "Host",
+            "type": "nominal",
+            "title": "Host Country",
+            "sort": { "encoding": "x", "order": "ascending" }
+        }
+    },
+    "config": {
+        "background": "#F3FAF9",
+        "axis": {
+            "titleColor": "#527298",
+            "labelColor": "#527298",
+            "labelFont": "sans-serif",
+            "labelFontSize": 15,
+            "titleFontSize": 15
+        }
+    }
+}
