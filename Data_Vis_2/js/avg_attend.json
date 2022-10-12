@@ -1,32 +1,38 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "width": "container",
-    "height": "container",
-    "data": {          
-        "url": "https://raw.githubusercontent.com/Ankush-De/3179/main/Data_Vis_2/data/WorldCups.csv"
-    },
+    "width": "800",
+    "height": "500",
+    "data": {
+      "url": "https://raw.githubusercontent.com/Ankush-De/3179/main/Data_Vis_2/data/WorldCups.csv"
+    },   
+    "title": " Goals Scored per World Cup ",
     "mark": "bar",
     "encoding": {
-        "x": {
-            "field": "GoalsScored",
-            "type": "quantitative",
-            "title": "Cumulative Goals Scored"
-        },
-        "y": {
-            "field": "Year",
-            "type": "nominal",
-            "title": "World Cup Year",
-            "sort": { "encoding": "y", "order": "ascending" }
-        }
+      "x": {
+  
+        "field": "Year",
+        "type": "nominal",
+        "title": "World Cup Year",
+        "sort": {"encoding": "y", "order": "ascending"}
+      },
+      "y": {
+        "field": "GoalsScored",
+        "type": "quantitative",
+        "title": " Goals Scored"
+      },
+          "tooltip": [
+        {"field": "Host", "type": "nominal"},
+        {"field": "QualifiedTeams", "type": "quantitative"}
+      ]
     },
     "config": {
-        "background": "#F3FAF9",
-        "axis": {
-            "titleColor": "#527298",
-            "labelColor": "#527298",
-            "labelFont": "sans-serif",
-            "labelFontSize": 15,
-            "titleFontSize": 15
-        }
+      "background": "#F3FAF9",
+      "axis": {
+        "titleColor": "#527298",
+        "labelColor": "#527298",
+        "labelFont": "sans-serif",
+        "labelFontSize": 15,
+        "titleFontSize": 15
+      }
     }
-}
+  }
