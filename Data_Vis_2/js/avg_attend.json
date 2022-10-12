@@ -1,7 +1,7 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "width": "container",
-    "height": "container",
+    "width": "800",
+    "height": "500",
     "data": {          
         "url": "https://raw.githubusercontent.com/Ankush-De/3179/main/Data_Vis_2/data/WorldCups.csv"
     },
@@ -10,13 +10,13 @@
         "x": {
             "field": "GoalsScored",
             "type": "quantitative",
-            "title": "Average Attendance"
+            "title": "Cumulative Goals Scored"
         },
         "y": {
-            "field": "Host",
+            "field": "Year",
             "type": "nominal",
-            "title": "Host Country",
-            "sort": { "encoding": "x", "order": "ascending" }
+            "title": "World Cup Year",
+            "sort": { "encoding": "y", "order": "ascending" }
         }
     },
     "config": {
