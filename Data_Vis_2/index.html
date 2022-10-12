@@ -2,75 +2,70 @@
 <html lang="en">
 
 <head>
-    <style>
-        body {
-        background-image: url("https://raw.githubusercontent.com/Ankush-De/3179/main/Data_Vis_2/data/background.jpg");
-        background-repeat: repeat;
-        background-color: #9e9d9d;
-        }
-        </style>
 
 
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
-    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
-    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
-
-    <script type="text/javascript">
-        var vg_1 = "https://ankush-de.github.io/3179/Data_Vis_2/js/avg_attend.json";
-        var vg_2 = "https://ankush-de.github.io/3179/Data_Vis_2/js/avg_at.json";
-        var vg_3 = "https://ankush-de.github.io/3179/Data_Vis_2/js/visualisation_line.json";
-        var vg_4 = "https://ankush-de.github.io/3179/Data_Vis_2/js/avg_attend.json";
+<link rel="stylesheet" href="https://ankush-de.github.io/3179/Data_Vis_2/css/style.css">
 
 
-        vegaEmbed('#visualisation_bar', vg_1).then(function(result) {
-          // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-        }).catch(console.error);
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        vegaEmbed('#visualisation_map', vg_2).then(function(result) {
-          // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-        }).catch(console.error);
+<script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
+<script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
+<script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
+
+<script type="text/javascript">
+    var vg_1 = "https://ankush-de.github.io/3179/Data_Vis_2/js/avg_attend.json";
+    var vg_2 = "https://ankush-de.github.io/3179/Data_Vis_2/js/avg_at.json";
+    var vg_3 = "https://ankush-de.github.io/3179/Data_Vis_2/js/visualisation_line.json";
+    var vg_4 = "https://ankush-de.github.io/3179/Data_Vis_2/js/avg_attend.json";
+
+    vegaEmbed('#visualisation_bar', vg_1).then(function(result) {
+       // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+    }).catch(console.error);
+
+    vegaEmbed('#visualisation_map', vg_2).then(function(result) {
+       // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+    }).catch(console.error);
         
-        vegaEmbed('#visualisation_line', vg_3).then(function(result) {
-          // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-        }).catch(console.error);
+    vegaEmbed('#visualisation_line', vg_3).then(function(result) {
+       // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+    }).catch(console.error);
         
-        vegaEmbed('#visualisation_something', vg_4).then(function(result) {
-          // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-        }).catch(console.error);
+    vegaEmbed('#visualisation_something', vg_4).then(function(result) {
+       // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+    }).catch(console.error);
         
         
-      </script>
+</script>
 
-    <title>DV2 FIT3179</title>
+<title>DV2 FIT3179</title>
 
 
 </head>
 
 <body>
-    <center>
-        <h1><b><p style="font-size:30px">FIFA World Cups 1930-2014</p></b></h1>
-        <br>
-        <h2><b><p style="font-size:25px">Analytical Breakdown</p></b></h2>
+<center>
+<h1><b><p style="font-size:30px">FIFA World Cups 1930-2014</p></b></h1>
+<br>
+<h2><b><p style="font-size:25px">Analytical Breakdown</p></b></h2>
 
-        <div id="visualisation_bar"></div>
-        <br><br><br>
-        <p style="font-size:18px">
-        Sample Text <br>
-        Sample Texr
-        </p>
+<div id="visualisation_bar"></div>
+<br><br><br>
+<p style="font-size:18px">
+Sample Text <br>
+Sample Texr
+</p>
 
-        <div id="visualisation_line"></div>
-        <br><br><br>
-        <p style="font-size:18px">
-        Sample Text <br>
-        Sample Texr
-        </p>
+<div id="visualisation_line"></div>
+<br><br><br>
+<p style="font-size:18px">
+Sample Text <br>
+Sample Text
+</p>
 
-    </center>
+</center>
 </body>
 
 </html>
