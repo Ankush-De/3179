@@ -1,14 +1,9 @@
-#div-with-bg
-{
-    background: color url('path') others;
-}
-
 body {
     background-image: url("https://raw.githubusercontent.com/Ankush-De/3179/main/Data_Vis_2/data/background.jpg");
     background-repeat: repeat;
     background-color: #9e9d9d;
     }
-    
+
 h1 {
     background-color: #80ced6;
   }
