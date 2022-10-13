@@ -1,4 +1,4 @@
-Year,Host,Match,Datetime,Stage,City,Home_Team,Home Team Goals,Away Team Goals,Total Goals,Away _Team,Attendance,Home Team Initials,Away Team Initials
+Year,Host,Match,Datetime,Stage,City,Home_Team,Home_Team_Goals,Away_Team_Goals,Total Goals,Away _Team,Attendance,Home Team Initials,Away Team Initials
 1930,Uruguay,1,13 Jul 1930 - 15:00 ,Group,Montevideo ,France,4,1,5,Mexico,4444,FRA,MEX
 1930,Uruguay,2,13 Jul 1930 - 15:00 ,Group,Montevideo ,USA,3,0,3,Belgium,18346,USA,BEL
 1930,Uruguay,3,14 Jul 1930 - 12:45 ,Group,Montevideo ,Yugoslavia,2,1,3,Brazil,24059,YUG,BRA
