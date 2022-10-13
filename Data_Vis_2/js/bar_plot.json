@@ -50,7 +50,7 @@
         "sort": {"encoding": "y", "order": "ascending"}
       },
       "y": {
-        "field": "Attendance",
+        "field": "Trial",
         "type": "quantitative",
         "title": " Attendance (Thousands)"
       },

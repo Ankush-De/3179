@@ -1,0 +1,21 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "A simple pie chart with embedded data.",
+    "data": {
+      "values": [
+        {"Country": "Brazil", "value": 5},
+        {"Country": "Germany", "value": 4},
+        {"Country": "Italy", "value": 4},
+        {"Country": "Argentina", "value": 2},
+        {"Country": "Uruguay", "value": 2},
+        {"Country": "France", "value": 1},
+        {"Country": "England", "value": 1},
+        {"Country": "Spain", "value": 1}      ]
+    },
+    "mark": "arc",
+    "encoding": {
+      "theta": {"field": "value", "type": "quantitative"},
+      "color": {"field": "Country", "type": "nominal"}
+    }
+  }
+  

@@ -21,6 +21,9 @@
     var vg_5 = "https://ankush-de.github.io/3179/Data_Vis_2/js/vis_map_home.json"
     var vg_6 = "https://ankush-de.github.io/3179/Data_Vis_2/js/vis_map_away.json"
 
+    var vg_7 = "https://ankush-de.github.io/3179/Data_Vis_2/js/vis_pie.json"
+    var vg_8 = "https://ankush-de.github.io/3179/Data_Vis_2/js/vis_something.json"
+
     vegaEmbed('#visualisation_bar', vg_1).then(function(result) {
        // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
     }).catch(console.error);
@@ -44,6 +47,14 @@
     vegaEmbed('#visualisation_map_home_goals', vg_6).then(function(result) {
        // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
     }).catch(console.error);
+
+    vegaEmbed('#visualisation_pie', vg_7).then(function(result) {
+       // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+    }).catch(console.error);     
+
+    vegaEmbed('#visualisation_something', vg_8).then(function(result) {
+       // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+    }).catch(console.error);
         
 </script>
 
@@ -58,6 +69,9 @@
 <h1><b><p style="font-size:30px">FIFA World Cups 1930-2014 Overview</p></b></h1>
 <br>
 <h2><b><p style="font-size:25px">[FILLER EXPLANATORY TEXT]</p></b></h2>
+
+<h2><b><p style="font-size:25px">[Background to be updated]</p></b></h2>
+
 
 <!-- VISUALISATION 1: Bar Chart-->
 
@@ -76,20 +90,6 @@
 <!-- VISUALISATION 2: Map-->
 
 <div style="background-color:rgba(170, 162, 162,0.6); width: 1000px">
-    <h2> World Cup Goal Distribution amongst participating countries</h2>
-    <div id="visualisation_map_1"></div>
-    <br>
-    <p style="font-size:18px">
-    Sample Text <br>
-    Sample Text <br>
-    Slider to go through all world cup data changing home/away goals
-    <br><br>
-    </p>
-</div>
-
-
-<!-- VISUALISATION 3: Map again-->
-<div style="background-color:rgba(170, 162, 162,0.6); width: 1000px">
     <h2> World Cup Hosts</h2>
     <div id="visualisation_map_2"></div>
     <br>
@@ -103,9 +103,36 @@
     </p>
 </div>
 
-<!-- VISUALISATION 4: Line Chart-->
+
+<!-- VISUALISATION 3: Map again-->
 <div style="background-color:rgba(170, 162, 162,0.6); width: 1000px">
-    <h2> VIS 4 TITLE</h2>
+    <h2> World Cup Goal Distribution amongst participating countries (To be Merged)</h2>
+    <div id="visualisation_map_home_goals"></div>
+    <br>
+    <p style="font-size:18px">
+    Sample Text <br>
+    Sample Text <br>
+    Slider to go through all world cup data changing home/away goals
+    <br><br>
+    </p>
+</div>
+
+<!-- VISUALISATION 4: Map Away-->
+<div style="background-color:rgba(170, 162, 162,0.6); width: 1000px">
+    <h2> World Cup Goal Distribution amongst participating countries (To be Merged)</h2>
+    <div id="visualisation_map_away_goals"></div>
+    <br>
+    <p style="font-size:18px">
+    Sample Text <br>
+    Sample Text <br>
+    Slider to go through all world cup data changing home/away goals
+    <br><br>
+    </p>
+</div>
+
+<!-- VISUALISATION 5: Line Chart-->
+<div style="background-color:rgba(170, 162, 162,0.6); width: 1000px">
+    <h2> Progression of Goals scored per tournament</h2>
     <div id="visualisation_line"></div>
     <br>
     <p style="font-size:18px">
@@ -113,40 +140,36 @@
     Sample Text <br>
     Line chart to show progression of cumulative goals over time <br>
     Fix year filter <br>
+    Slider removed temporarily due to data issue
     <br><br>
     </p>
 </div>
 
-<!-- VISUALISATION 5: Map Away-->
-<div style="background-color:rgba(170, 162, 162,0.6); width: 1000px">
-    <h2> VIS 5 TITLE</h2>
-    <div id="visualisation_map_away_goals"></div>
-    <br>
-    <p style="font-size:18px">
-    Sample Text <br>
-    Sample Text
-    </p>
-</div>
 
-<!-- VISUALISATION 6: Map Home-->
+
+<!-- VISUALISATION 6: Pie-->
 <div style="background-color:rgba(170, 162, 162,0.6); width: 1000px">
-    <h2> VIS 6 TITLE</h2>
-    <div id="visualisation_map_away_goals"></div>
+    <h2> Pie Chart: World Cup Winners</h2>
+    <div id="visualisation_pie"></div>
     <br>
     <p style="font-size:18px">
     Sample Text <br>
-    Sample Text
+    Hard Coded Temp Plot <br>
+    Pie Chart to be added in properly once code is rectified
+    <br><br>
     </p>
 </div>
 
 <!-- VISUALISATION 7: Line Chart-->
 <div style="background-color:rgba(170, 162, 162,0.6); width: 1000px">
-    <h2> VIS 7 TITLE</h2><div id="visualisation_line">
-    </div><div id="visualisation_line2"></div>
+    <h2> VIS 7 TITLE</h2>
+    <div id="visualisation_something"></div>
     <br>
     <p style="font-size:18px">
     Sample Text <br>
-    Sample Text
+    Sample Text <br>
+    Filler div while chart is being developed 
+    <br><br>
     </p>
 </div>
 
