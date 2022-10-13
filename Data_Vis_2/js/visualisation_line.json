@@ -1,11 +1,11 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "data": {"url": "https://raw.githubusercontent.com/Ankush-De/3179/main/Data_Vis_2/data/WorldCupMatches.csv"},
-      "title": "Goals Over Time (TITLE TBC)",
+    "data": {"url": "https://raw.githubusercontent.com/Ankush-De/3179/main/Data_Vis_2/data/line_data_trial.csv"},
+      "title": "Goals Per Match in each World Cup series",
     "width": 800,
     "height": 500,
-    "encoding": {"x": {"field": "Year", "type": "quantitative",
-      "scale":{"domain" : [1930,2014]}}},
+    "encoding": {"x": {"field": "Match", "type": "quantitative",
+      "scale":{"domain" : [1,32]}}},
     "layer": [
       {
         "encoding": {
@@ -13,13 +13,15 @@
           "y": {"field": "Attendance", "type": "quantitative"}
         },
         "layer": [
-          {    "mark": {"type": "line","clip": true  }
-          },
+          {    "mark": {
+      "type": "line",
+      "clip": true
+    }},
           {"transform": [{"filter": {"selection": "hover"}}], "mark": "point"}
         ]
       },
       {
-        "transform": [{"pivot": "Host", "value": "Attendance", "groupby": ["Year"]}],
+        "transform": [{"pivot": "Host", "value": "Attendance", "groupby": ["Match"]}],
         "mark": {"type":"rule","clip":true},
         "encoding": {
           "opacity": {
@@ -27,13 +29,19 @@
             "value": 0
           },
           "tooltip": [
-            {"field": "Year", "type": "quantitative"},
+            {"field": "Match", "type": "quantitative"},
+            {"field": "Argentia", "type": "quantitative"},
+            {"field": "Brazil", "type": "quantitative"},
+            {"field": "Chile", "type": "quantitative"},
+            {"field": "England", "type": "quantitative"},
+            {"field": "France", "type": "quantitative"},
+            {"field": "Germany", "type": "quantitative"}
           ]
         },
         "selection": {
           "hover": {
             "type": "single",
-            "fields": ["Year"],
+            "fields": ["Match"],
             "nearest": true,
             "on": "mouseover",
             "empty": "none",
