@@ -11,11 +11,10 @@
         {"Country": "France", "value": 1},
         {"Country": "England", "value": 1},
         {"Country": "Spain", "value": 1}      ]
-    },
-    "mark": "arc",
-    "encoding": {
-      "theta": {"field": "value", "type": "quantitative"},
-      "color": {"field": "Country", "type": "nominal"}
-    }
+  },
+  "mark": {"type": "arc", "innerRadius": 50},
+  "encoding": {
+    "theta": {"field": "value", "type": "quantitative"},
+    "color": {"field": "Country", "type": "nominal"}
   }
-  
+}
