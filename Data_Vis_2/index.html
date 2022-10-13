@@ -18,13 +18,13 @@
     var vg_1 = "https://ankush-de.github.io/3179/Data_Vis_2/js/bar_plot.json";
     var vg_2 = "https://ankush-de.github.io/3179/Data_Vis_2/js/visualisation_map.json";
     var vg_3 = "https://ankush-de.github.io/3179/Data_Vis_2/js/visualisation_line.json";
-    var vg_4 = "https://ankush-de.github.io/3179/Data_Vis_2/js/avg_attend33.json";
+    var vg_4 = "https://ankush-de.github.io/3179/Data_Vis_2/js/Visualisation_map_2.json";
 
     vegaEmbed('#visualisation_bar', vg_1).then(function(result) {
        // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
     }).catch(console.error);
 
-    vegaEmbed('#visualisation_map', vg_2).then(function(result) {
+    vegaEmbed('#visualisation_map_1', vg_2).then(function(result) {
        // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
     }).catch(console.error);
         
@@ -32,7 +32,7 @@
        // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
     }).catch(console.error);
         
-    vegaEmbed('#visualisation_line', vg_4).then(function(result) {
+    vegaEmbed('#visualisation_map_2', vg_4).then(function(result) {
        // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
     }).catch(console.error);
         
@@ -53,7 +53,7 @@
 <!-- VISUALISATION 1: Bar Chart-->
 
 <div style="background-color:rgba(170, 162, 162,0.5); width: 1000px">
-    <h2> VIS 1 TITLE</h2>
+    <h2> Analysing Trends in Goals Scored and Average Attendance per World Cup</h2>
     <div id="visualisation_bar"></div>
     <br><br><br>
     <p style="font-size:18px">
@@ -65,8 +65,8 @@
 <!-- VISUALISATION 2: Map-->
 
 <div style="background-color:rgba(170, 162, 162,0.5); width: 1000px">
-    <h2> VIS 2 TITLE</h2>
-    <div id="visualisation_map"></div>
+    <h2> Visualising where World Cups Occur</h2>
+    <div id="visualisation_map_1"></div>
     <br>
     <p style="font-size:18px">
     Sample Text <br>
@@ -78,7 +78,7 @@
 <!-- VISUALISATION 3: Line Chart-->
 <div style="background-color:rgba(170, 162, 162,0.5); width: 1000px">
     <h2> VIS 3 TITLE</h2>
-    <div id="visualisation_bar_2"></div>
+    <div id="visualisation_map_2"></div>
     <br>
     <p style="font-size:18px">
     Sample Text <br>
