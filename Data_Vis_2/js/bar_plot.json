@@ -50,9 +50,9 @@
         "sort": {"encoding": "y", "order": "ascending"}
       },
       "y": {
-        "field": "Trial",
+        "field": "Attendance",
         "type": "quantitative",
-        "title": " Attendance"
+        "title": " Attendance (Thousands)"
       },
           "tooltip": [
         {"field": "Host", "type": "nominal"},
