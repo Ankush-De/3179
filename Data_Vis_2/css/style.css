@@ -10,6 +10,8 @@ h1 {
   
 div {
     background-color: #737573;
+    height: 500px;
+    width: 70%;
   }
   
 span {
