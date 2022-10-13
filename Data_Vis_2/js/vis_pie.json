@@ -1,6 +1,7 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "description": "A simple pie chart with embedded data.",
+    "background": "rgba(170, 162, 162,0.6)",
     "data": {
       "values": [
         {"Country": "Brazil", "value": 5},
