@@ -1,74 +1,70 @@
 {
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "width": "800",
-    "height": "500",
-    "data": {
-      "url": "https://raw.githubusercontent.com/Ankush-De/3179/main/Data_Vis_2/data/WorldCups.csv"
-    }, 
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": "800",
+  "height": "500",
+  "data": {
+    "url": "https://raw.githubusercontent.com/Ankush-De/3179/main/Data_Vis_2/data/WorldCups.csv"
+  },
   "hconcat": [
     {
-    "title": " Goals Scored per World Cup ",
-    "mark": "bar",
-    "encoding": {
-      "x": {
-  
-        "field": "Year",
-        "type": "nominal",
-        "title": "World Cup Year",
-        "sort": {"encoding": "y", "order": "ascending"}
+      "title": " Goals Scored per World Cup ",
+      "mark": "line",
+      "encoding": {
+        "x": {
+          "field": "Year",
+          "type": "nominal",
+          "title": "World Cup Year"
+        },
+        "y": {
+          "field": "GoalsScored",
+          "type": "quantitative",
+          "title": " Goals Scored"
+        },
+        "tooltip": [
+          {"field": "Host", "type": "nominal"},
+          {"field": "QualifiedTeams", "type": "quantitative"}
+        ]
       },
-      "y": {
-        "field": "GoalsScored",
-        "type": "quantitative",
-        "title": " Goals Scored"
-      },
-          "tooltip": [
-        {"field": "Host", "type": "nominal"},
-        {"field": "QualifiedTeams", "type": "quantitative"}
-      ]
-    },
-    "config": {
-      "background": "#F3FAF9",
-      "axis": {
-        "titleColor": "#527298",
-        "labelColor": "#527298",
-        "labelFont": "sans-serif",
-        "labelFontSize": 15,
-        "titleFontSize": 15
+      "config": {
+        "background": "#F3FAF9",
+        "axis": {
+          "titleColor": "#527298",
+          "labelColor": "#527298",
+          "labelFont": "sans-serif",
+          "labelFontSize": 15,
+          "titleFontSize": 15
+        }
       }
-    }
     },
     {
-    "title": " Average Attendance per World Cup ",
-    "mark": "bar",
-    "encoding": {
-      "x": {
-  
-        "field": "Year",
-        "type": "nominal",
-        "title": "World Cup Year",
-        "sort": {"encoding": "y", "order": "ascending"}
+      "title": " Average Attendance per World Cup ",
+      "mark": "line",
+      "encoding": {
+        "x": {
+          "field": "Year",
+          "type": "nominal",
+          "title": "World Cup Year"
+        },
+        "y": {
+          "field": "Trial",
+          "type": "quantitative",
+          "title": " Attendance (Thousands)"
+        },
+        "tooltip": [
+          {"field": "Host", "type": "nominal"},
+          {"field": "QualifiedTeams", "type": "quantitative"}
+        ]
       },
-      "y": {
-        "field": "Trial",
-        "type": "quantitative",
-        "title": " Attendance (Thousands)"
-      },
-          "tooltip": [
-        {"field": "Host", "type": "nominal"},
-        {"field": "QualifiedTeams", "type": "quantitative"}
-      ]
-    },
-    "config": {
-      "background": "#F3FAF9",
-      "axis": {
-        "titleColor": "#527298",
-        "labelColor": "#527298",
-        "labelFont": "sans-serif",
-        "labelFontSize": 15,
-        "titleFontSize": 15
+      "config": {
+        "background": "#F3FAF9",
+        "axis": {
+          "titleColor": "#527298",
+          "labelColor": "#527298",
+          "labelFont": "sans-serif",
+          "labelFontSize": 15,
+          "titleFontSize": 15
+        }
       }
-    }
     }
   ]
 }
