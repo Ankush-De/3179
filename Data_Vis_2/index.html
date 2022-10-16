@@ -14,43 +14,44 @@
 <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
 
 <script type="text/javascript">
-    var vg_1 = "https://ankush-de.github.io/3179/Data_Vis_2/js/bar_plot.json";
-    var vg_2 = "https://ankush-de.github.io/3179/Data_Vis_2/js/visualisation_map.json";
-    var vg_3 = "https://ankush-de.github.io/3179/Data_Vis_2/js/visualisation_line.json";
-    var vg_4 = "https://ankush-de.github.io/3179/Data_Vis_2/js/Visualisation_map_2.json";
-    var vg_5 = "https://ankush-de.github.io/3179/Data_Vis_2/js/vis_map_home.json"
-    var vg_6 = "https://ankush-de.github.io/3179/Data_Vis_2/js/vis_map_away.json"
+    var vg_1 = "https://ankush-de.github.io/3179/Data_Vis_2/js/1_line_goals.json";
+    var vg_2 = "https://ankush-de.github.io/3179/Data_Vis_2/js/2_line_attendance.json";
+    var vg_3 = "https://ankush-de.github.io/3179/Data_Vis_2/js/3_line_goals_matches.json";
+    var vg_4 = "https://ankush-de.github.io/3179/Data_Vis_2/js/4_Visualisation_map_2.json";
+    var vg_5 = "https://ankush-de.github.io/3179/Data_Vis_2/js/5_vis_pie.json"
+    var vg_6 = "https://ankush-de.github.io/3179/Data_Vis_2/js/6_1_vis_map_home.json"
+    var vg_7 = "https://ankush-de.github.io/3179/Data_Vis_2/js/6_2_vis_map_away.json"
 
-    var vg_7 = "https://ankush-de.github.io/3179/Data_Vis_2/js/vis_pie.json"
     var vg_8 = "https://ankush-de.github.io/3179/Data_Vis_2/js/vis_something.json"
 
-    vegaEmbed('#visualisation_bar', vg_1).then(function(result) {
+    vegaEmbed('#visualisation_line_1', vg_1).then(function(result) {
        // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
     }).catch(console.error);
 
-    vegaEmbed('#visualisation_map_1', vg_2).then(function(result) {
+    vegaEmbed('#visualisation_line_2', vg_2).then(function(result) {
        // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
     }).catch(console.error);
         
-    vegaEmbed('#visualisation_line', vg_3).then(function(result) {
+    vegaEmbed('#visualisation_line_3', vg_3).then(function(result) {
        // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
     }).catch(console.error);
         
-    vegaEmbed('#visualisation_map_2', vg_4).then(function(result) {
+    vegaEmbed('#visualisation_map_1', vg_4).then(function(result) {
        // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
     }).catch(console.error);
-            
-    vegaEmbed('#visualisation_map_away_goals', vg_5).then(function(result) {
+
+    vegaEmbed('#visualisation_pie', vg_5).then(function(result) {
        // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
     }).catch(console.error);     
-
+            
     vegaEmbed('#visualisation_map_home_goals', vg_6).then(function(result) {
        // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+    }).catch(console.error);     
+
+    vegaEmbed('#visualisation_map_away_goals', vg_7).then(function(result) {
+       // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
     }).catch(console.error);
 
-    vegaEmbed('#visualisation_pie', vg_7).then(function(result) {
-       // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-    }).catch(console.error);     
 
     vegaEmbed('#visualisation_something', vg_8).then(function(result) {
        // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
@@ -66,7 +67,7 @@
 
 <body>
 <center>
-<h1><b><p style="font-size:30px">FIFA World Cups 1930-2014 Overview</p></b></h1>
+<h1><b><p style="font-size:30px ">FIFA World Cups 1930-2014 Overview</p></b></h1>
 <br>
 <h2><b><p style="font-size:25px">[FILLER EXPLANATORY TEXT]</p></b></h2>
 
