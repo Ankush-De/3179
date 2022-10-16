@@ -1,9 +1,8 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": "Number of World Cup Titles Won",
-  "description": "A simple donut chart with embedded data.",
+  "background":null,
     "data": {"url": "https://raw.githubusercontent.com/Ankush-De/3179/main/Data_Vis_2/data/WorldCupWinners.csv"},
-
   "mark": {"type": "arc", "innerRadius": 40,"tooltip": true,"outerRadius": 70},
   "encoding": {
     "theta": {"field": "Number", "type": "quantitative"},
