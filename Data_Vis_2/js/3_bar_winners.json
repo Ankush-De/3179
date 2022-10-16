@@ -2,17 +2,7 @@
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "data": {"url": "https://raw.githubusercontent.com/Ankush-De/3179/main/Data_Vis_2/data/WorldCupWinners.csv"},
     "mark": "bar",  
-    "transform": [
-      {
-        "window": [{
-          "op": "rank",
-          "as": "rank"
-        }],
-        "sort": [{ "field": "Number", "order": "descending" }]
-      }, {
-        "filter": "datum.rank <= 10"
-      }
-    ],
+
     "encoding": {
       "x": {"field": "Country", "type": "nominal"},
       "y": {"field": "Number", "type": "quantitative", "sort":"-color"},

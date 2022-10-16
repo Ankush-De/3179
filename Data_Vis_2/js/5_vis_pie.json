@@ -2,6 +2,8 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": "Number of World Cup Titles Won",
   "background":null,
+  "width": 800,
+  "height": 500,
   "config": {
   "style": {
     "cell": {
