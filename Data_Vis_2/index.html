@@ -20,7 +20,7 @@
     var vg_4 = "https://ankush-de.github.io/3179/Data_Vis_2/js/4_Visualisation_map_2.json";
     var vg_5 = "https://ankush-de.github.io/3179/Data_Vis_2/js/5_vis_pie.json"
     var vg_6 = "https://ankush-de.github.io/3179/Data_Vis_2/js/6_1_vis_map_away.json"
-    var vg_7 = "https://ankush-de.github.io/3179/Data_Vis_2/js/6_2_vis_map_away.json"
+    var vg_7 = "https://ankush-de.github.io/3179/Data_Vis_2/js/6_2_vis_map_home.json"
 
     var vg_8 = "https://ankush-de.github.io/3179/Data_Vis_2/js/vis_something.json"
 
@@ -44,11 +44,11 @@
        // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
     }).catch(console.error);     
             
-    vegaEmbed('#visualisation_map_home_goals', vg_6).then(function(result) {
+    vegaEmbed('#6_1_vis_map_away', vg_6).then(function(result) {
        // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
     }).catch(console.error);     
 
-    vegaEmbed('#visualisation_map_away_goals', vg_7).then(function(result) {
+    vegaEmbed('#6_2_vis_map_home', vg_7).then(function(result) {
        // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
     }).catch(console.error);
 
@@ -147,10 +147,10 @@
     </p>
 </div>
 
-<!-- VISUALISATION 7: Map Home-->
+<!-- VISUALISATION 7: Map Away-->
 <div style="background-color:rgba(170, 162, 162,0.7); width: 1000px">
     <h2> World Cup Goal Distribution amongst participating countries (To be Merged)</h2>
-    <div id="visualisation_map_away_goals"></div>
+    <div id="6_1_vis_map_away"></div>
     <br>
     <p style="font-size:18px">
     Sample Text <br>
@@ -160,10 +160,10 @@
     </p>
 </div>
 
-<!-- VISUALISATION 8: Map Away-->
+<!-- VISUALISATION 8: Map Home-->
 <div style="background-color:rgba(170, 162, 162,0.7); width: 1000px">
     <h2> World Cup Goal Distribution amongst participating countries (To be Merged)</h2>
-    <div id="visualisation_map_home_goals"></div>
+    <div id="6_2_vis_map_home"></div>
     <br>
     <p style="font-size:18px">
     Sample Text <br>
@@ -173,7 +173,7 @@
     </p>
 </div>
 
-<!-- VISUALISATION 5: Line Chart-->
+<!-- VISUALISATION 5: Line Chart GET RID OF-->
 <div style="background-color:rgba(170, 162, 162,0.7); width: 1000px">
     <h2> Progression of Goals scored per tournament</h2>
     <div id="visualisation_line"></div>
