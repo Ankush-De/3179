@@ -1,79 +1,79 @@
-Country,Home,Away,Home_games,Away_games
-France,68,40,31,30
-United States of America,19,19,15,19
-Yugoslavia,42,18,17,20
-Romania,15,15,9,12
-Argentina,111,22,54,27
-Chile,25,16,14,20
-Uruguay,62,18,28,24
-Brazil,180,45,82,25
-Paraguay,14,16,11,15
-Austria,31,12,13,16
-Hungary,73,14,18,14
-Switzerland,22,23,12,22
-Sweden,53,21,27,19
-Germany,69,35,34,14
-Spain,50,42,30,29
-Italy,99,29,57,26
-Czechoslovakia,27,17,10,20
-Cuba,5,0,2,1
-United Kingdom,54,25,35,27
-Germany FR,99,32,43,19
-Turkey,10,10,2,8
-Soviet Union,43,10,18,13
-Northern Ireland,5,8,5,8
-Mexico,22,36,16,35
-Wales,2,2,1,4
-Portugal,36,7,16,10
-Korea DPR,2,4,3,4
-Peru,13,6,5,8
-Belgium,27,27,18,22
-Bulgaria,11,11,7,19
-German DR,3,2,3,3
-Zaire,0,0,2,1
-Poland,27,17,16,15
-Australia,7,4,6,7
-Scotland,11,14,9,14
-Netherlands,51,40,32,21
-Haiti,0,2,1,2
-Tunisia,6,2,4,8
-Algeria,5,9,6,8
-Honduras,2,1,5,4
-Canada,0,0,1,2
-Morocco,3,9,4,9
-Korea Republic,18,13,14,17
-Iraq,1,0,2,1
-Denmark,13,14,7,9
-United Arab Emirates,0,2,1,2
-Costa Rica,7,11,7,10
-Cameroon,11,7,11,12
-Republic of Ireland,2,0,5,0
-Colombia,11,18,7,13
-Norway,1,6,1,6
-Nigeria,12,8,9,10
-Saudi Arabia,3,6,6,7
-Bolivia,1,0,1,3
-Russia,9,4,3,6
-Greece,4,2,4,7
-Jamaica,1,2,1,2
-South Africa,7,4,6,3
-Japan,7,7,10,7
-Croatia,3,18,3,13
-China PR,0,0,1,2
-Senegal,3,4,2,3
-Slovenia,3,2,3,3
-Ecuador,4,6,4,6
-Trinidad and Tobago,0,0,1,0
-Serbia and Montenegro,0,0,1,0
-Angola,0,1,1,2
-Czech Republic,0,3,2,1
-Togo,0,1,2,1
-Iran,1,4,1,5
-Côte d'Ivoire,5,0,3,0
-Ghana,4,9,4,8
-Ukraine,1,4,1,4
-Serbia,0,2,1,2
-New Zealand,1,3,1,5
-Slovakia,3,2,2,2
-IR Iran,0,2,1,5
-Bosnia and Herzegovina,3,0,1,0
+Country,Home,Away,Total,Home_games,Away_games,Total_games
+France,68,40,108,31,30,61
+United States of America,19,19,38,15,19,34
+Yugoslavia,42,18,60,17,20,37
+Romania,15,15,30,9,12,21
+Argentina,111,22,133,54,27,81
+Chile,25,16,41,14,20,34
+Uruguay,62,18,80,28,24,52
+Brazil,180,45,225,82,25,107
+Paraguay,14,16,30,11,15,26
+Austria,31,12,43,13,16,29
+Hungary,73,14,87,18,14,32
+Switzerland,22,23,45,12,22,34
+Sweden,53,21,74,27,19,46
+Germany,69,35,104,34,14,48
+Spain,50,42,92,30,29,59
+Italy,99,29,128,57,26,83
+Czechoslovakia,27,17,44,10,20,30
+Cuba,5,0,5,2,1,3
+United Kingdom,54,25,79,35,27,62
+Germany FR,99,32,131,43,19,62
+Turkey,10,10,20,2,8,10
+Soviet Union,43,10,53,18,13,31
+Northern Ireland,5,8,13,5,8,13
+Mexico,22,36,58,16,35,51
+Wales,2,2,4,1,4,5
+Portugal,36,7,43,16,10,26
+Korea DPR,2,4,6,3,4,7
+Peru,13,6,19,5,8,13
+Belgium,27,27,54,18,22,40
+Bulgaria,11,11,22,7,19,26
+German DR,3,2,5,3,3,6
+Zaire,0,0,0,2,1,3
+Poland,27,17,44,16,15,31
+Australia,7,4,11,6,7,13
+Scotland,11,14,25,9,14,23
+Netherlands,51,40,91,32,21,53
+Haiti,0,2,2,1,2,3
+Tunisia,6,2,8,4,8,12
+Algeria,5,9,14,6,8,14
+Honduras,2,1,3,5,4,9
+Canada,0,0,0,1,2,3
+Morocco,3,9,12,4,9,13
+Korea Republic,18,13,31,14,17,31
+Iraq,1,0,1,2,1,3
+Denmark,13,14,27,7,9,16
+United Arab Emirates,0,2,2,1,2,3
+Costa Rica,7,11,18,7,10,17
+Cameroon,11,7,18,11,12,23
+Republic of Ireland,2,0,2,5,0,5
+Colombia,11,18,29,7,13,20
+Norway,1,6,7,1,6,7
+Nigeria,12,8,20,9,10,19
+Saudi Arabia,3,6,9,6,7,13
+Bolivia,1,0,1,1,3,4
+Russia,9,4,13,3,6,9
+Greece,4,2,6,4,7,11
+Jamaica,1,2,3,1,2,3
+South Africa,7,4,11,6,3,9
+Japan,7,7,14,10,7,17
+Croatia,3,18,21,3,13,16
+China PR,0,0,0,1,2,3
+Senegal,3,4,7,2,3,5
+Slovenia,3,2,5,3,3,6
+Ecuador,4,6,10,4,6,10
+Trinidad and Tobago,0,0,0,1,0,1
+Serbia and Montenegro,0,0,0,1,0,1
+Angola,0,1,1,1,2,3
+Czech Republic,0,3,3,2,1,3
+Togo,0,1,1,2,1,3
+Iran,1,4,5,1,5,6
+Côte d'Ivoire,5,0,5,3,0,3
+Ghana,4,9,13,4,8,12
+Ukraine,1,4,5,1,4,5
+Serbia,0,2,2,1,2,3
+New Zealand,1,3,4,1,5,6
+Slovakia,3,2,5,2,2,4
+IR Iran,0,2,2,1,5,6
+Bosnia and Herzegovina,3,0,3,1,0,1
