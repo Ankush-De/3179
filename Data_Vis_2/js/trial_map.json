@@ -81,6 +81,7 @@
                   },
                   "tooltip": [
                       { "field": "Host", "type": "nominal", "title": "Host Country" },
+                      { "field": "Year", "type": "nominal", "title": "Year Hosted" },
                       { "field": "Winner", "type": "nominal", "title": "Winner Country" },
                       { "field": "Runners-Up", "type": "nominal", "title": "Runners Up" },
                       { "field": "GoalsScored","type": "quantitative","title": "Number of Goals Scored"}
