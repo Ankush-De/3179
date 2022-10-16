@@ -1,79 +1,79 @@
-Country,Home,Away
-France,68,31
-United States of America,19,21
-Yugoslavia,42,9
-Romania,15,13
-Argentina,111,44
-Chile,25,11
-Uruguay,62,29
-Brazil,180,78
-Paraguay,14,10
-Austria,31,17
-Hungary,73,19
-Switzerland,22,16
-Sweden,53,25
-Germany,69,32
-Spain,50,30
-Italy,99,41
-Czechoslovakia,27,8
-Cuba,5,4
-United Kingdom,54,20
-Germany FR,99,36
-Turkey,10,0
-Soviet Union,43,18
-Northern Ireland,5,6
-Mexico,22,11
-Wales,2,1
-Portugal,36,13
-Korea DPR,2,4
-Peru,13,4
-Belgium,27,16
-Bulgaria,11,10
-German DR,3,2
-Zaire,0,5
-Poland,27,14
-Australia,7,11
-Scotland,11,11
-Netherlands,51,21
-Haiti,0,7
-Tunisia,6,6
-Algeria,5,10
-Honduras,2,8
-Canada,0,1
-Morocco,3,5
-Korea Republic,18,22
-Iraq,1,3
-Denmark,13,13
-"rn"">United Arab Emirates",0,2
-Costa Rica,7,10
-Cameroon,11,23
-"rn"">Republic of Ireland",2,2
-Colombia,11,6
-Norway,1,0
-Nigeria,12,14
-Saudi Arabia,3,13
-Bolivia,1,3
-Russia,9,2
-Greece,4,6
-Jamaica,1,3
-South Africa,7,10
-Japan,7,14
-Croatia,3,6
-China PR,0,2
-Senegal,3,4
-Slovenia,3,6
-Ecuador,4,3
-"rn"">Trinidad and Tobago",0,0
-"rn"">Serbia and Montenegro",0,1
-Angola,0,1
-Czech Republic,0,4
-Togo,0,4
-Iran,1,1
-Cï¿½te d'Ivoire,5,3
-Ghana,4,5
-Ukraine,1,0
-Serbia,0,1
-New Zealand,1,1
-Slovakia,3,4
-IR Iran,0,0
-"rn"">Bosnia and Herzegovina",3,1
+Country,Home,Away,Home_games,Away_games
+France,68,40,31,30
+United States of America,19,19,15,19
+Yugoslavia,42,18,17,20
+Romania,15,15,9,12
+Argentina,111,22,54,27
+Chile,25,16,14,20
+Uruguay,62,18,28,24
+Brazil,180,45,82,25
+Paraguay,14,16,11,15
+Austria,31,12,13,16
+Hungary,73,14,18,14
+Switzerland,22,23,12,22
+Sweden,53,21,27,19
+Germany,69,35,34,14
+Spain,50,42,30,29
+Italy,99,29,57,26
+Czechoslovakia,27,17,10,20
+Cuba,5,0,2,1
+United Kingdom,54,25,35,27
+Germany FR,99,32,43,19
+Turkey,10,10,2,8
+Soviet Union,43,10,18,13
+Northern Ireland,5,8,5,8
+Mexico,22,36,16,35
+Wales,2,2,1,4
+Portugal,36,7,16,10
+Korea DPR,2,4,3,4
+Peru,13,6,5,8
+Belgium,27,27,18,22
+Bulgaria,11,11,7,19
+German DR,3,2,3,3
+Zaire,0,0,2,1
+Poland,27,17,16,15
+Australia,7,4,6,7
+Scotland,11,14,9,14
+Netherlands,51,40,32,21
+Haiti,0,2,1,2
+Tunisia,6,2,4,8
+Algeria,5,9,6,8
+Honduras,2,1,5,4
+Canada,0,0,1,2
+Morocco,3,9,4,9
+Korea Republic,18,13,14,17
+Iraq,1,0,2,1
+Denmark,13,14,7,9
+United Arab Emirates,0,2,1,2
+Costa Rica,7,11,7,10
+Cameroon,11,7,11,12
+Republic of Ireland,2,0,5,0
+Colombia,11,18,7,13
+Norway,1,6,1,6
+Nigeria,12,8,9,10
+Saudi Arabia,3,6,6,7
+Bolivia,1,0,1,3
+Russia,9,4,3,6
+Greece,4,2,4,7
+Jamaica,1,2,1,2
+South Africa,7,4,6,3
+Japan,7,7,10,7
+Croatia,3,18,3,13
+China PR,0,0,1,2
+Senegal,3,4,2,3
+Slovenia,3,2,3,3
+Ecuador,4,6,4,6
+Trinidad and Tobago,0,0,1,0
+Serbia and Montenegro,0,0,1,0
+Angola,0,1,1,2
+Czech Republic,0,3,2,1
+Togo,0,1,2,1
+Iran,1,4,1,5
+Côte d'Ivoire,5,0,3,0
+Ghana,4,9,4,8
+Ukraine,1,4,1,4
+Serbia,0,2,1,2
+New Zealand,1,3,1,5
+Slovakia,3,2,2,2
+IR Iran,0,2,1,5
+Bosnia and Herzegovina,3,0,1,0
