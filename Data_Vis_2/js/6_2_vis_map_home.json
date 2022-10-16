@@ -70,6 +70,7 @@
           "legend": {"format": ".1s"}
         },
         "tooltip": [
+          {"field": "Country", "type": "nominal", "title": "Country Name "},
           {"field": "Home", "type": "quantitative", "title": "Home Goals Scored"},
           {"field": "Home_games", "type": "quantitative", "title": "Number of Home Games played"}
         ]
