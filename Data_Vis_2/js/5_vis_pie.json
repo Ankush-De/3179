@@ -1,21 +1,14 @@
 {
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "description": "A simple pie chart with embedded data.",
-    "background": "rgba(170, 162, 162,0.6)",
-    "data": {
-      "values": [
-        {"Country": "Brazil", "value": 5},
-        {"Country": "Germany", "value": 4},
-        {"Country": "Italy", "value": 4},
-        {"Country": "Argentina", "value": 2},
-        {"Country": "Uruguay", "value": 2},
-        {"Country": "France", "value": 1},
-        {"Country": "England", "value": 1},
-        {"Country": "Spain", "value": 1}      ]
-  },
-  "mark": {"type": "arc", "innerRadius": 50},
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "Number of World Cup Titles Won",
+  "description": "A simple donut chart with embedded data.",
+    "data": {"url": "https://raw.githubusercontent.com/Ankush-De/3179/main/Data_Vis_2/data/WorldCupWinners.csv"},
+
+  "mark": {"type": "arc", "innerRadius": 40,"tooltip": true,"outerRadius": 70},
   "encoding": {
-    "theta": {"field": "value", "type": "quantitative"},
-    "color": {"field": "Country", "type": "nominal"}
-  }
+    "theta": {"field": "Number", "type": "quantitative"},
+    "color": {"field": "Country", "type": "nominal", "legend": null,"scale": {
+      "domain": ["Germany", "Brazil", "Italy","Argentina","Uruguay", "France", "England", "Spain"], 
+      "range": ["Black", "yellow", "navy","gold","lightblue", "white", "red", "maroon"]}}
+    }
 }
