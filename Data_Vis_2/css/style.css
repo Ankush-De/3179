@@ -14,12 +14,22 @@ body {
         src: url("https://ankush-de.github.io/3179/Data_Vis_2/css/font/fifa_font.ttf");
     }
 
+    
+    @font-face {
+        font-family: customFont_h2;
+        src: url("https://ankush-de.github.io/3179/Data_Vis_2/css/font/fifa_font.ttf");
+    }
+
 
     h1 {
     background-color: #80ced6;
     height: 50px;
     font-family: customFont_heading;
   }
+
+h2 {
+    font-family: customFont_h2;
+}
 
 p {
     font-family: customFont_body;
