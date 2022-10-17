@@ -6,12 +6,12 @@ body {
 
     @font-face {
         font-family: customFont_heading;
-        src: url("https://ankush-de.github.io/3179/Data_Vis_2/css/font/fifa_font.ttf");
+        src: url("https://ankush-de.github.io/3179/Data_Vis_2/css/font/h1_font.ttf");
     }
 
     @font-face {
         font-family: customFont_body;
-        src: url("https://ankush-de.github.io/3179/Data_Vis_2/css/font/fifa_font.ttf");
+        src: url("https://ankush-de.github.io/3179/Data_Vis_2/css/font/body_font.ttf");
     }
 
     
