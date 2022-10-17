@@ -27,7 +27,9 @@
           "tooltip": [
             {"field": "Host","type": "nominal","title": "Tournament Host "},
             {"field": "Year", "type": "quantitative", "title": "Tournament Year "},
-            {"field": "GoalsScored", "type": "quantitative", "title": "Total No. Goals Scored"}
+            {"field": "GoalsScored", "type": "quantitative", "title": "Total No. Goals Scored"},
+            {"field": "MatchesPlayed", "type": "quantitative", "title": "Number of Matches Played"}
+
           ]
         },
         "selection": {
