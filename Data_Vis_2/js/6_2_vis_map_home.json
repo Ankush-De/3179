@@ -65,7 +65,7 @@
         "color": {
           "field": "Home",
           "type": "quantitative",
-          "scale": {"scheme": "blues"},
+          "scale": {"scheme": "teals"},
           "legend": {"format": ".1s"}
         },
         "tooltip": [

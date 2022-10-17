@@ -65,7 +65,7 @@
         "color": {
           "field": "Away",
           "type": "quantitative",
-          "scale": {"scheme": "blues"},
+          "scale": {"scheme": "purples"},
           "legend": {"format": ".1s"}
         },
         "tooltip": [

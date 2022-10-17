@@ -5,17 +5,23 @@ body {
     }
 
     @font-face {
-        font-family: customFont;
-        src: url(font/fifa_font.ttf);
+        font-family: customFont_heading;
+        src: url("https://ankush-de.github.io/3179/Data_Vis_2/css/font/fifa_font.ttf");
     }
 
-h1 {
+    @font-face {
+        font-family: customFont_body;
+        src: url("https://ankush-de.github.io/3179/Data_Vis_2/css/font/fifa_font.ttf");
+    }
+
+
+    h1 {
     background-color: #80ced6;
     height: 50px;
-    font-family: customFont;
+    font-family: customFont_heading;
   }
 
 p {
-    font-family: customFont;
+    font-family: customFont_body;
 }
   
