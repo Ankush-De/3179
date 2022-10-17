@@ -12,8 +12,7 @@ body {
 h1 {
     background-color: #80ced6;
     height: 50px;
-    font-style: italic;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: customFont;
   }
 
 p {
