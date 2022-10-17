@@ -4,6 +4,10 @@ body {
     background-color: #9e9d9d;
     }
 
+    @font-face {
+        font-family: customFont;
+        src: url(font/fifa_font.ttf);
+    }
 
 h1 {
     background-color: #80ced6;
@@ -13,7 +17,6 @@ h1 {
   }
 
 p {
-    font-family: Impact,'Arial Narrow Bold', sans-serif;
-    font: 1em sans-serif;
+    font-family: customFont;
 }
   
